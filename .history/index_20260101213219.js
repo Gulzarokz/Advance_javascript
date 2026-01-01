@@ -154,16 +154,8 @@
 // }
 // console.log(a);
 
-// if (1 == 1) {
-//     let a = "hello"
-//     console.log(a);
-
-// }
-// console.log(a);
-
-
 if (1 == 1) {
-    const a = "hello"
+    let a = "hello"
     console.log(a);
 
 }

@@ -141,32 +141,7 @@
 
 // let 
 
-// let a = "i am let";
-// let a = "world";  cannot be re-declared
-// a = "hello";      // can be re-assign
-// a = "hello";
-// console.log(a);
-
-// if (1 == 1) {
-//     var a = "hello"
-//     console.log(a);
-
-// }
-// console.log(a);
-
-// if (1 == 1) {
-//     let a = "hello"
-//     console.log(a);
-
-// }
-// console.log(a);
-
-
-if (1 == 1) {
-    const a = "hello"
-    console.log(a);
-
-}
+let a = "i am let";
+let a = "
+a = "world"
 console.log(a);
-
-

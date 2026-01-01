@@ -127,46 +127,19 @@
 // ======================================
 
 // var a = "I am var";
-// var a = "Hello " can be re-declared
-// a = "world"       can be re-assign
+// var a = "Hello "
+// a = "world"
 // console.log(a);
 
 // const 
 // const a = "I am const";
-// // var a = "Hello " cannot be re-declared
-// // a = "world"      cannot be re-assign
-// console.log(a);
+// // var a = "Hello "
 // // a = "world"
 // console.log(a);
 
 // let 
 
-// let a = "i am let";
-// let a = "world";  cannot be re-declared
-// a = "hello";      // can be re-assign
-// a = "hello";
-// console.log(a);
-
-// if (1 == 1) {
-//     var a = "hello"
-//     console.log(a);
-
-// }
-// console.log(a);
-
-// if (1 == 1) {
-//     let a = "hello"
-//     console.log(a);
-
-// }
-// console.log(a);
-
-
-if (1 == 1) {
-    const a = "hello"
-    console.log(a);
-
-}
+let a = "i am let";
+// let a = "hello"
+a = "world"
 console.log(a);
-
-
