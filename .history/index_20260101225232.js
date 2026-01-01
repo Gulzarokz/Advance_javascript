@@ -212,29 +212,16 @@
 // console.log(arr3);
 
 
-// function sum(name, ...args) {
-//     let sum = 0;
+function sum(name, ...args) {
+    let sum = 0;
 
-//     for (let i in args) {
-//         sum += args[i]
-//     }
-//     document.writeln(`Hello ${name}, sum is  = ${sum}`);
+    for (let i in args) {
+        sum += args[i]
+    }
+    document.writeln(`Hello ${name}, sum is  = ${sum}`);
 
-// }
-// let arr = [10, 20, 30, 40];
+}
+let arr = [10, 20, 30, 40];
 
-// sum("John", ...arr);
+sum("John", ...arr);
 
-// const object1 = {
-//     name: "Gulzar",
-//     age: 30,
-//     city: "New York"
-// };
-
-// const object2 = {
-//     name: "John",
-//     age: 25,
-//     country: "USA"
-// };
-// const mergedObject = { ...object1, ...object2 };
-// console.log(mergedObject);

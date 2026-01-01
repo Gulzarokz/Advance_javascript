@@ -189,52 +189,18 @@
 
 // rest operator
 
-// function sum(name, ...args) {
-//     let sum = 0;
+function sum(name, ...args) {
+    let sum = 0;
 
-//     for (let i in args) {
-//         sum += args[i]
-//     }
-//     // console.log(sum);
-//     document.writeln(`Hello ${name}, sum is  = ${sum}`);
-
-
-// }
-
-// sum("John", 23, 21, 34)
-// sum("John", 23, 21)
-
-// spread operator
-
-// let arr1 = [1, 2, 3];
-// let arr2 = [4, 5, 6];
-// let arr3 = [...arr1, ...arr2];
-// console.log(arr3);
+    for (let i in args) {
+        sum += args[i]
+    }
+    // console.log(sum);
+    document.writeln(`Hello ${name}, sum is = ${sum}`);
 
 
-// function sum(name, ...args) {
-//     let sum = 0;
+}
 
-//     for (let i in args) {
-//         sum += args[i]
-//     }
-//     document.writeln(`Hello ${name}, sum is  = ${sum}`);
+sum("John", 23, 21, 34)
+sum("John", 23, 21)
 
-// }
-// let arr = [10, 20, 30, 40];
-
-// sum("John", ...arr);
-
-// const object1 = {
-//     name: "Gulzar",
-//     age: 30,
-//     city: "New York"
-// };
-
-// const object2 = {
-//     name: "John",
-//     age: 25,
-//     country: "USA"
-// };
-// const mergedObject = { ...object1, ...object2 };
-// console.log(mergedObject);

@@ -225,16 +225,16 @@
 
 // sum("John", ...arr);
 
-// const object1 = {
-//     name: "Gulzar",
-//     age: 30,
-//     city: "New York"
-// };
+const object1 = {
+    name: "Gulzar",
+    age: 30,
+    city: "New York"
+};
 
-// const object2 = {
-//     name: "John",
-//     age: 25,
-//     country: "USA"
-// };
-// const mergedObject = { ...object1, ...object2 };
-// console.log(mergedObject);
+const boject2 = {
+    name: "John",
+    age: 25,
+    country: "USA"
+};
+const mergedObject = { ...object1, ...boject2 };
+console.log(mergedObject);
