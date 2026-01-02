@@ -212,17 +212,56 @@
 // console.log(arr3);
 
 
-function sum(name, ...args) {
-    let sum = 0;
+// function sum(name, ...args) {
+//     let sum = 0;
 
-    for (let i in args) {
-        sum += args[i]
-    }
-    document.writeln(`Hello ${name}, sum is  = ${sum}`);
+//     for (let i in args) {
+//         sum += args[i]
+//     }
+//     document.writeln(`Hello ${name}, sum is  = ${sum}`);
 
-}
-let arr = [10, 20, 30, 40];
+// }
+// let arr = [10, 20, 30, 40];
 
-sum("John", arr)
+// sum("John", ...arr);
+
+// const object1 = {
+//     name: "Gulzar",
+//     age: 30,
+//     city: "New York"
+// };
+
+// const object2 = {
+//     name: "John",
+//     age: 25,
+//     country: "USA"
+// };
+// const mergedObject = { ...object1, ...object2 };
+// console.log(mergedObject);
 
 
+// Distructuring ARRAY
+
+// let array = ["Gulzar", 30, "New York", ["male", 23000]];
+
+// let [name, age, city, [gender, salary]] = array;
+
+// console.log(`This is ${name}, his age is ${age}, the city is ${city}, gender is ${gender} and salary is ${salary}`);
+
+// let array = ["Gulzar", 30, "New York"];
+// let [name, ...city] = array;
+
+
+// console.log(`The name is ${name} and the ${city}`);
+
+// Distructuring OBJECT
+
+const person = {
+    name: "Gulzar",
+    age: 30,
+    city: "New York",
+    country: "USA"
+};
+let { name, age, city, country } = person;
+
+console.log(`This is ${name}, his age is ${age}, the city is ${city} and country is ${country}`);

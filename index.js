@@ -238,3 +238,30 @@
 // };
 // const mergedObject = { ...object1, ...object2 };
 // console.log(mergedObject);
+
+
+// Distructuring ARRAY
+
+// let array = ["Gulzar", 30, "New York", ["male", 23000]];
+
+// let [name, age, city, [gender, salary]] = array;
+
+// console.log(`This is ${name}, his age is ${age}, the city is ${city}, gender is ${gender} and salary is ${salary}`);
+
+// let array = ["Gulzar", 30, "New York"];
+// let [name, ...city] = array;
+
+
+// console.log(`The name is ${name} and the ${city}`);
+
+// Distructuring OBJECT
+
+const person = {
+    name: "Gulzar",
+    age: 30,
+    city: "New York",
+    country: "USA"
+};
+let { name, age, city, country } = person;
+
+console.log(`This is ${name}, his age is ${age}, the city is ${city} and country is ${country}`);

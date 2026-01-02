@@ -225,16 +225,34 @@
 
 // sum("John", ...arr);
 
-const object1 = {
-    name: "Gulzar",
-    age: 30,
-    city: "New York"
-};
+// const object1 = {
+//     name: "Gulzar",
+//     age: 30,
+//     city: "New York"
+// };
 
-const boject2 = {
-    name: "John",
-    age: 25,
-    country: "USA"
-};
-const mergedObject = { ...object1, ...boject2 };
-console.log(mergedObject);
+// const object2 = {
+//     name: "John",
+//     age: 25,
+//     country: "USA"
+// };
+// const mergedObject = { ...object1, ...object2 };
+// console.log(mergedObject);
+
+
+// Distructuring ARRAY
+
+// let array = ["Gulzar", 30, "New York", ["male", 23000]];
+
+// let [name, age, city, [gender, salary]] = array;
+
+// console.log(`This is ${name}, his age is ${age}, the city is ${city}, gender is ${gender} and salary is ${salary}`);
+
+// let array = ["Gulzar", 30, "New York"];
+// let [name, ...city] = array;
+
+
+// console.log(`The name is ${name} and the ${city}`);
+
+// Distructuring OBJECT
+
